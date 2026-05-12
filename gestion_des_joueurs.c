@@ -41,7 +41,7 @@ void initialiserJoueurs(Joueur joueurs[], int nbJoueurs) {
 
     for (i = 0; i < nbJoueurs; i++) {
         printf("nom du joueur %d : ", i + 1);
-        scanf("%49s", joueurs[i].nom);
+        scanf("%s", joueurs[i].nom);
         viderBuffer();
 
         joueurs[i].scoreTotal = 0;
