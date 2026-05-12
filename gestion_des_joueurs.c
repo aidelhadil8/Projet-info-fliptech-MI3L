@@ -35,7 +35,6 @@ typedef struct {
 } Joueur;
 
 
-void viderBuffer();
 
 void initialiserJoueurs(Joueur joueurs[], int nbJoueurs) {
     int i;
