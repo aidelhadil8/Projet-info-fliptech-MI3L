@@ -18,7 +18,6 @@ void initialiserJoueurs(Joueur joueurs[], int nbJoueurs) {
 }
 
 // on remet a zero les infos de manche mais pas le score total
-// c'est important de pas effacer le score total entre les manches
 void initialiserManche(Joueur joueurs[], int nbJoueurs) {
     int i;
     int j;
